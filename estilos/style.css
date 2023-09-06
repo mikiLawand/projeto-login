@@ -40,7 +40,7 @@ section#login{
     background-color: white;
     /*dimensões de um celular*/
     width: 250px;
-    height: 520px;
+    height: 470px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.379);
 
@@ -86,6 +86,11 @@ form > div#campo{
 
 div#campo > label{
    display: none;
+}
+
+div#campo > input{
+   border: 0px;
+   border-radius: 5px; 
 }
 
 form > input[type=submit] {
